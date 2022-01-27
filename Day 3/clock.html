@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./clock.css">
+    <title>Day 3</title>
+</head>
+<header>
+    <h1>
+        Calcular la cantidad de segundos de X Cantidad de Horas y Minutos
+    </h1>
+<body>
+    <main class="main-container">
+        <section class="time-container">
+            <h2>Ingresa el tiempo en los recuadros de abajo</h2>
+            <form action>
+                <label for="inputHours, inputMinutes">Escribe el tiempo que quieras saber</label>
+                <p>
+                    Horas
+                    <input id="inputHours" type="number">
+                </p>
+                <p>
+                    Minutos
+                    <input id="inputMinutes" type="number">
+                </p>
+                <button type="button" onclick="calcularSegundos()">
+                Calcular los Segundos</button>
+                <p id="outputSeconds"></p>
+            </form>
+        </section>
+    </main>
+    
+    <script src="./clock.js"></script>
+</body>
+</html>
