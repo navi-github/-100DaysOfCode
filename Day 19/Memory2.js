@@ -23,7 +23,7 @@ let order = [];
 
 function checkOrder() {
     for(j=1; j <= reps; choosenCharacters.length) {
-
+        
     }
 }
 
