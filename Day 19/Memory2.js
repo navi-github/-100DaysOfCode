@@ -21,6 +21,7 @@
 // 19. Memory (part2)!
 // Lleva un registro del Orden en el que aparecieron los caracteres
 
+<<<<<<< HEAD
 class Memory {
     constructor() {
         this.chars = ['"', '#', '$', '%', '(', ')', '/', '&'];
@@ -61,6 +62,13 @@ class Memory {
         else {
             alert('Lo siento, ese no es el orden correcto')
         }
+=======
+let order = [];
+
+function checkOrder() {
+    for(j=1; j <= reps; choosenCharacters.length) {
+        
+>>>>>>> c73fcf17b421cfcbfdbba1e6459a3c1a15d59179
     }
 }
 
